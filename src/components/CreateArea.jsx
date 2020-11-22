@@ -29,6 +29,7 @@ function CreateArea(props) {
 
   function submitNote(event) {
     props.onAdd(note);
+    // Clear form
     setNote({
       title: "",
       content: ""
